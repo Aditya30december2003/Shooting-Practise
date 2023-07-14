@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+}
+.square{
+    border: 5px solid rgb(13, 184, 173);
+    width: 100px;
+    height: 100px;
+    cursor: crosshair;
+}
+
+.container{
+    display: grid;
+    grid-template-columns:   100px 100px  100px 100px  100px 100px;
+    grid-template-rows:   100px 100px  100px 100px  100px 100px;
+    margin-left: 25%;
+    margin-top: 50px;
+}
+
+.display{
+    display: none;
+}
+
+.skull img{
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+
+.score{
+    color: rgb(13, 184, 173);
+}
+
+.time{
+    color: rgb(13, 184, 173);
+}
